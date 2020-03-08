@@ -1,0 +1,47 @@
+/* 公共样式 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li, ol li {
+  list-style: none;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 弹性布局公共类名------------------开始 */
+
+.flex {
+  display: flex;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 弹出布局公共类名------------------结束 */
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
